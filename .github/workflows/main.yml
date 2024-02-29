@@ -6,7 +6,7 @@ jobs:
     name: We test it locally with act
     steps:
       - name: Get Pokemon name
-        uses: tqhuy812/custom-action-tutorial@master
+        uses: tqhuy812/custom-action-tutorial@main
         id: pokemon
         with:
           pokemon_id: 150
